@@ -10,6 +10,7 @@
 - Fixes internal cache saving in `Phalcon\Mvc\Model\Binder` when no cache backend is used
 - Added the ability to get original values from `Phalcon\Mvc\Model\Binder`, added `Phalcon\Mvc\Micro::getModelBinder`, `Phalcon\Dispatcher::getModelBinder`
 - Added `prepend` parameter to `Phalcon\Loader::register` to specify autoloader's loading order to top most
+- Added `options` parameter to `Phalcon\Mvc\Collection::aggregate` for both the [legacy driver](http://php.net/manual/en/mongocollection.aggregate.php) and the [incubator Adapter](https://github.com/phalcon/incubator/blob/3.0.x/Library/Phalcon/Db/Adapter/MongoDB/Collection.php#L181)
 
 # [3.0.4](https://github.com/phalcon/cphalcon/releases/tag/v3.0.4) (XXXX-XX-XX)
 - Fixed Isnull check is not correct when the model field defaults to an empty string. [#12507](https://github.com/phalcon/cphalcon/issues/12507)
